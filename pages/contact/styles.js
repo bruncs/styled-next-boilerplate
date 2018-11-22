@@ -5,6 +5,6 @@ export const Hero = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #1c2535;
+  color: #333;
   background-color: #fff;
 `;

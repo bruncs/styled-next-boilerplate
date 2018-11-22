@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
   }
   body {
-    background-color: #1C2535;
+    background-color: #333;
     font-family: "Montserrat", sans-serif;
   }
 `;
