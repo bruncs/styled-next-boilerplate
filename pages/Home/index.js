@@ -2,8 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
 
-const Content = styled.div`
-  background: #069;
+const Header = styled.div`
   color: #fff;
 `;
 
@@ -12,9 +11,9 @@ const Home = () => (
     <Head>
       <title>Bruno Correia - Software Engineer</title>
     </Head>
-    <Content>
+    <Header>
       <h1>Hello World</h1>
-    </Content>
+    </Header>
   </div>
 );
 
