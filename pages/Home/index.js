@@ -1,20 +1,19 @@
 import React from 'react';
 import Head from 'next/head';
-import styled from 'styled-components';
 
-const Header = styled.div`
-  color: #fff;
-`;
+import withAnalytics from '../../components/hocs/withAnalytics';
+import { Hero, Logo } from './styles';
 
 const Home = () => (
   <div>
     <Head>
-      <title>Bruno Correia - Software Engineer</title>
+      <title>Home</title>
     </Head>
-    <Header>
+    <Hero>
+      <Logo alt="" src="/static/images/globe-americas.svg" width="40" />
       <h1>Hello World</h1>
-    </Header>
+    </Hero>
   </div>
 );
 
-export default Home;
+export default withAnalytics()(Home);
