@@ -4,10 +4,10 @@ import Head from 'next/head';
 import withAnalytics from '../../components/hocs/withAnalytics';
 import { Hero, Logo } from './styles';
 
-const Home = () => (
+const Hello = () => (
   <div>
     <Head>
-      <title>Home</title>
+      <title>Hello</title>
     </Head>
     <Hero>
       <Logo alt="" src="/static/images/globe-americas.svg" width="40" />
@@ -16,4 +16,4 @@ const Home = () => (
   </div>
 );
 
-export default withAnalytics()(Home);
+export default withAnalytics()(Hello);
